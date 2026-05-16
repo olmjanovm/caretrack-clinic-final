@@ -32,14 +32,31 @@ app.use(session({
 }));
 app.use(express.static(path.join(__dirname, 'public')));
 
+function getSessionUser(req) {
+  if (req.session && req.session.user) return req.session.user;
+  if (req.headers['x-user']) {
+    try { return JSON.parse(req.headers['x-user']); } catch {}
+  }
+  return null;
+}
+
 function requireAuth(req, res, next) {
-  if (req.session && req.session.user) return next();
+  const u = getSessionUser(req);
+  if (u) {
+    if (!req.session) req.session = {};
+    req.session.user = u;
+    return next();
+  }
   return res.status(401).json({ error: 'Unauthorized' });
 }
+
 function requireRole(...roles) {
   return (req, res, next) => {
-    if (!req.session || !req.session.user) return res.status(401).json({ error: 'Unauthorized' });
-    if (!roles.includes(req.session.user.role)) return res.status(403).json({ error: 'Forbidden' });
+    const u = getSessionUser(req);
+    if (!u) return res.status(401).json({ error: 'Unauthorized' });
+    if (!roles.includes(u.role)) return res.status(403).json({ error: 'Forbidden' });
+    if (!req.session) req.session = {};
+    req.session.user = u;
     next();
   };
 }

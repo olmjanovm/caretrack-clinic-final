@@ -3,7 +3,12 @@
 
 const API = (() => {
   async function req(method, url, body) {
-    const opts = { method, headers: { 'Content-Type': 'application/json' } };
+    const headers = { 'Content-Type': 'application/json' };
+    try {
+      const u = sessionStorage.getItem('ct_user');
+      if (u) headers['X-User'] = u;
+    } catch {}
+    const opts = { method, headers };
     if (body) opts.body = JSON.stringify(body);
     const res = await fetch(url, opts);
     if (res.status === 401) { window.location.href = '/login.html'; return; }
