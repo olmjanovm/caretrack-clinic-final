@@ -240,7 +240,12 @@ app.get('/api/reports/summary', requireRole('admin'), (req, res) => {
 // ── SPA fallback ─────────────────────────────────────────────────────────────
 app.get('/', (req, res) => res.redirect('/login.html'));
 
-app.listen(PORT, () => {
-  console.log(`✅ CareTrack Clinic running at http://localhost:${PORT}`);
-  console.log('   Login: admin/admin123 | clinician/clinician123 | receptionist/reception123');
-});
+if (require.main === module) {
+  app.listen(PORT, () => {
+    console.log(`✅ CareTrack Clinic running at http://localhost:${PORT}`);
+    console.log('   Login: admin/admin123 | clinician/clinician123 | receptionist/reception123');
+  });
+}
+
+module.exports = app;
+
