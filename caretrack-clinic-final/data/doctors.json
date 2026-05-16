@@ -1,0 +1,92 @@
+[
+  {
+    "id": "d2",
+    "full_name": "Dr. Malika Karimova",
+    "specialty": "Clinical Neurologist",
+    "department": "Neurology",
+    "phone": "+998 90 234 56 78",
+    "email": "m.karimova@caretrack.uz",
+    "available_status": "Available"
+  },
+  {
+    "id": "d3",
+    "full_name": "Dr. Bekzod Sattorov",
+    "specialty": "Dermatologist",
+    "department": "Dermatology",
+    "phone": "+998 90 345 67 89",
+    "email": "b.sattorov@caretrack.uz",
+    "available_status": "Available"
+  },
+  {
+    "id": "d4",
+    "full_name": "Dr. Nilufar Tursunova",
+    "specialty": "Orthopedic Surgeon",
+    "department": "Orthopedics",
+    "phone": "+998 90 456 78 90",
+    "email": "n.tursunova@caretrack.uz",
+    "available_status": "Available"
+  },
+  {
+    "id": "d5",
+    "full_name": "Dr. Akmal Rashidov",
+    "specialty": "General Practitioner",
+    "department": "General Practice",
+    "phone": "+998 90 567 89 01",
+    "email": "a.rashidov@caretrack.uz",
+    "available_status": "Available"
+  },
+  {
+    "id": "d6",
+    "full_name": "Dr. Dilnoza Abdullaeva",
+    "specialty": "Radiologist",
+    "department": "Diagnostics",
+    "phone": "+998 90 678 90 12",
+    "email": "d.abdullaeva@caretrack.uz",
+    "available_status": "Available"
+  },
+  {
+    "id": "d7",
+    "full_name": "Dr. Sherzod Mirzaev",
+    "specialty": "Cardiac Electrophysiologist",
+    "department": "Cardiology",
+    "phone": "+998 90 789 01 23",
+    "email": "s.mirzaev@caretrack.uz",
+    "available_status": "Available"
+  },
+  {
+    "id": "d8",
+    "full_name": "Dr. Gulnora Hamidova",
+    "specialty": "Pediatric Neurologist",
+    "department": "Neurology",
+    "phone": "+998 90 890 12 34",
+    "email": "g.hamidova@caretrack.uz",
+    "available_status": "Available"
+  },
+  {
+    "id": "dmp75j3xxscjz",
+    "full_name": "Muslimbek Olimov",
+    "specialty": "Interventional Cardiologist",
+    "department": "Diagnostics",
+    "phone": "+998946740511",
+    "email": "olmjanovm@gmail.com",
+    "available_status": "Available"
+  },
+  {
+    "id": "dmp76guz4li46",
+    "full_name": "Muslimbek Olimov",
+    "specialty": "Dermatologist",
+    "department": "Cardiology",
+    "phone": "+998946740511",
+    "email": "olmjanovm@gmail.com",
+    "available_status": "Available"
+  },
+  {
+    "id": "dmp77bf19m8dt",
+    "full_name": "Muslimbek Olimov",
+    "specialty": "Export",
+    "department": "Cardiology",
+    "phone": "+998946740511",
+    "email": "olmjanovm@gmail.com",
+    "available_status": "Available"
+  }
+]

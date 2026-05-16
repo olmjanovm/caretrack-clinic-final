@@ -1,0 +1,17 @@
+[
+  { "id": "u1", "username": "admin", "password": "admin123", "fullName": "Sarvarbek Aliyev", "role": "admin" },
+
+  { "id": "u_d2", "username": "m.karimova", "password": "klinik123", "fullName": "Dr. Malika Karimova", "role": "clinician", "doctor_id": "d2" },
+  { "id": "u_d3", "username": "b.sattorov", "password": "klinik123", "fullName": "Dr. Bekzod Sattorov", "role": "clinician", "doctor_id": "d3" },
+  { "id": "u_d4", "username": "n.tursunova", "password": "klinik123", "fullName": "Dr. Nilufar Tursunova", "role": "clinician", "doctor_id": "d4" },
+  { "id": "u_d5", "username": "a.rashidov", "password": "klinik123", "fullName": "Dr. Akmal Rashidov", "role": "clinician", "doctor_id": "d5" },
+  { "id": "u_d6", "username": "d.abdullaeva", "password": "klinik123", "fullName": "Dr. Dilnoza Abdullaeva", "role": "clinician", "doctor_id": "d6" },
+  { "id": "u_d7", "username": "s.mirzaev", "password": "klinik123", "fullName": "Dr. Sherzod Mirzaev", "role": "clinician", "doctor_id": "d7" },
+  { "id": "u_d8", "username": "g.hamidova", "password": "klinik123", "fullName": "Dr. Gulnora Hamidova", "role": "clinician", "doctor_id": "d8" },
+
+  { "id": "u_r1", "username": "zulfiya", "password": "qabul123", "fullName": "Zulfiya Nazarova", "role": "receptionist" },
+  { "id": "u_r2", "username": "barno", "password": "qabul123", "fullName": "Barno Mirzayeva", "role": "receptionist" },
+  { "id": "u_r3", "username": "shahlo", "password": "qabul123", "fullName": "Shahlo Toshpulatova", "role": "receptionist" },
+
+  { "id": "u_dmp77bf19m8dt", "username": "olimov", "password": "olimov", "fullName": "Muslimbek Olimov", "role": "clinician", "doctor_id": "dmp77bf19m8dt" }
+]

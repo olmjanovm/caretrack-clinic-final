@@ -1,0 +1,22 @@
+[
+  { "id": "p1",  "full_name": "Aziz Karimov",     "date_of_birth": "1985-03-12", "gender": "Male",   "phone": "+998 91 111 22 33", "address": "Toshkent, Yunusobod 14-5",    "doctor_id": "d2", "registered_by": "u_r1" },
+  { "id": "p2",  "full_name": "Madina Saidova",    "date_of_birth": "1992-07-25", "gender": "Female", "phone": "+998 91 222 33 44", "address": "Toshkent, Chilonzor 8-21",   "doctor_id": "d2", "registered_by": "u_r1" },
+  { "id": "p3",  "full_name": "Olim Toshmatov",    "date_of_birth": "1978-11-03", "gender": "Male",   "phone": "+998 91 333 44 55", "address": "Samarqand, Registon 4",      "doctor_id": "d1", "registered_by": "u_r2" },
+  { "id": "p4",  "full_name": "Zarina Yuldasheva", "date_of_birth": "2001-02-18", "gender": "Female", "phone": "+998 91 444 55 66", "address": "Toshkent, Mirzo Ulug'bek 22","doctor_id": "d3", "registered_by": "u_r1" },
+  { "id": "p5",  "full_name": "Jamshid Otaboev",   "date_of_birth": "1965-09-09", "gender": "Male",   "phone": "+998 91 555 66 77", "address": "Buxoro, Mustaqillik 11",     "doctor_id": "d4", "registered_by": "u_r2" },
+  { "id": "p6",  "full_name": "Sevara Rustamova",  "date_of_birth": "1988-04-30", "gender": "Female", "phone": "+998 91 666 77 88", "address": "Toshkent, Sergeli 7-3",      "doctor_id": "d5", "registered_by": "u_r3" },
+  { "id": "p7",  "full_name": "Sardor Nazarov",    "date_of_birth": "1995-12-14", "gender": "Male",   "phone": "+998 91 777 88 99", "address": "Andijon, Bobur 9",           "doctor_id": "d2", "registered_by": "u_r1" },
+  { "id": "p8",  "full_name": "Laylo Kamilova",    "date_of_birth": "1972-06-22", "gender": "Female", "phone": "+998 91 888 99 00", "address": "Toshkent, Olmazor 33",       "doctor_id": "d4", "registered_by": "u_r2" },
+  { "id": "p9",  "full_name": "Davron Ergashev",   "date_of_birth": "1982-08-17", "gender": "Male",   "phone": "+998 91 999 00 11", "address": "Farg'ona, Mustaqillik 12",   "doctor_id": "d7", "registered_by": "u_r3" },
+  { "id": "p10", "full_name": "Nodira Ismoilova",  "date_of_birth": "1999-01-05", "gender": "Female", "phone": "+998 91 000 11 22", "address": "Toshkent, Yashnobod 18",     "doctor_id": "d5", "registered_by": "u_r1" },
+  { "id": "p11", "full_name": "Otabek Sobirov",    "date_of_birth": "1968-10-28", "gender": "Male",   "phone": "+998 91 121 32 43", "address": "Namangan, Navoiy 5",         "doctor_id": "d7", "registered_by": "u_r2" },
+  { "id": "p12", "full_name": "Kamola Yusupova",   "date_of_birth": "1990-05-11", "gender": "Female", "phone": "+998 91 232 43 54", "address": "Toshkent, Bektemir 9",       "doctor_id": "d8", "registered_by": "u_r3" },
+  { "id": "p13", "full_name": "Rustam Boboev",     "date_of_birth": "1955-03-19", "gender": "Male",   "phone": "+998 91 343 54 65", "address": "Toshkent, Shayxontohur 4",  "doctor_id": "d4", "registered_by": "u_r1" },
+  { "id": "p14", "full_name": "Feruza Akramova",   "date_of_birth": "1986-11-27", "gender": "Female", "phone": "+998 91 454 65 76", "address": "Qarshi, Amir Temur 16",      "doctor_id": "d3", "registered_by": "u_r2" },
+  { "id": "p15", "full_name": "Bobur Xolmatov",    "date_of_birth": "1979-07-08", "gender": "Male",   "phone": "+998 91 565 76 87", "address": "Toshkent, Uchtepa 12",       "doctor_id": "d5", "registered_by": "u_r3" },
+  { "id": "p16", "full_name": "Mavluda Nazirova",  "date_of_birth": "2003-09-15", "gender": "Female", "phone": "+998 91 676 87 98", "address": "Toshkent, Mirobod 6",        "doctor_id": "d8", "registered_by": "u_r1" },
+  { "id": "p17", "full_name": "Anvar Ismatullaev", "date_of_birth": "1971-04-02", "gender": "Male",   "phone": "+998 91 787 98 09", "address": "Xorazm, Pahlavon Mahmud 3",  "doctor_id": "d6", "registered_by": "u_r2" },
+  { "id": "p18", "full_name": "Shahnoza Olimova",  "date_of_birth": "1994-12-23", "gender": "Female", "phone": "+998 91 898 09 10", "address": "Toshkent, Yakkasaroy 19",    "doctor_id": "d2", "registered_by": "u_r3" },
+  { "id": "p19", "full_name": "Timur Ergashov",    "date_of_birth": "1960-02-14", "gender": "Male",   "phone": "+998 91 909 10 21", "address": "Toshkent, Yunusobod 21",     "doctor_id": "d7", "registered_by": "u_r1" },
+  { "id": "p20", "full_name": "Iroda Mahmudova",   "date_of_birth": "1989-06-06", "gender": "Female", "phone": "+998 91 010 21 32", "address": "Toshkent, Chilonzor 15",     "doctor_id": "d5", "registered_by": "u_r2" }
+]
